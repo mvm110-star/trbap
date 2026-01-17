@@ -1,0 +1,429 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f4f7f6;
+}
+
+header {
+    background: #2c3e50;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.grid-patologia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+html {
+    scroll-behavior: smooth;
+}
+main p{
+    text-align: justify;
+}
+table th, table td {
+    text-align: center;
+}
+.importante {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+.importante-activo {
+    background-color: #ffff00; /* Amarillo fluorescente */
+    font-weight: bold;
+    border-radius: 3px;
+}
+#boton-resaltar {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#boton-resaltar:hover {
+    background-color: #34495e;
+}
+.caso-clinico {
+    border-left: 5px solid #2c3e50; /* Una barrita lateral médica */
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+.importante-activo {
+    background-color: yellow !important;
+    font-weight: bold;
+     }
+.btn-atlas {
+    background-color: #91a8c0; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-atlas:hover {
+    background-color: #7e96ad;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.btn-atlas:active {
+    transform: translateY(0);
+}
+
+.btn-atlas.activo {
+    background-color: #e74c3c;
+    }
+    .bibliografia-seccion {
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+details {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+summary {
+    font-weight: bold;
+    color: #2c3e50;
+    list-style: none; 
+}
+
+summary::before {
+    content: "▶ "; 
+    font-size: 0.8rem;
+}
+
+details[open] summary::before {
+    content: "▼ "; 
+}
+
+details ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    color: #555;
+}
+
+details li {
+    margin-bottom: 5px;
+}
+details a {
+    color: #007bff; 
+    text-decoration: none; 
+    transition: color 0.2s ease;
+}
+
+details a:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}
+details a::after {
+    content: " ↗"; 
+    font-size: 1.3rem;
+    vertical-align: super;
+}
+main{  
+    text-align: justify;
+}
+details a {
+    position: relative;
+    padding-right: 18px; 
+}
+
+details a::after {
+    content: "↗";
+    position: absolute; 
+    right: 0;
+    top: -2px;         
+    font-size: 1rem;   
+    font-weight: bold;
+    color: #007bff;
+}
+.contenedor-imagen {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contenedor-imagen img {
+    max-width: 90%;    
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.pie-foto {
+    font-size: 0.85rem;
+    color: #666;
+    font-style: tahoma;
+    margin-top: 8px;
+}
+.radiog-tcg-der {
+    float: right !important;        
+    width: 550px !important;        
+    margin-left: 20px !important;   
+    margin-bottom: 5px !important; 
+    background: #f9f9f9 !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.radiog-tcg-der img {
+    width: 100% !important;   
+    object-fit: auto !important;   
+    border-radius: 4px !important;
+}
+
+@media (max-width: 500px) {
+    .radiog-tcg-der {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+.tac-osteoide {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tac-osteoide img {
+    max-width: 70%;    
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+.osteobl-vs-osteoid {
+    float: right;           
+    width: 450px;           
+    margin-left: 20px;      
+    margin-bottom: 3px;    
+    text-align: center;     
+}
+
+.osteobl-vs-osteoid img {
+    width: 126%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+
+@media (max-width: 600px) {
+    .osteobl-vs-osteoid {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+.setaosteoc {
+    float: right;           
+    width: 250px;           
+    margin-left: 20px;      
+    margin-bottom: 3px;    
+    text-align: center;     
+}
+
+.setaosteoc img {
+    width: 100%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.condromaenc {
+    text-align: center; 
+}
+.condromaenc img {
+    width: 80%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none;
+}
+.osteop1 {   
+    text-align: center;     
+}
+
+.osteop1 img {
+    width: 85%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.osteop2 {   
+    float: right;           
+    width: 450px;           
+    margin-left: 20px;      
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;     
+}
+
+.osteop2 img {
+    width: 100%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.ewinghisto {   
+    float: right;           
+    width: 450px;           
+    margin-left: 20px;      
+    text-align: center;
+    margin-top: 30px;     
+}
+
+.ewinghisto img {
+    width: 100%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.rxewing {   
+    float: right;           
+    width: 230px;           
+    margin-left: 20px;      
+    text-align: center;
+    margin-top: 0px;     
+}
+
+.rxewing img {
+    width: 100%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+ul  {
+    padding-left: 0px;          
+    list-style-position: inside;  
+    margin-bottom: 5px;
+}
+
+li {
+    margin-bottom: 8px;           
+    line-height: 1.4;
+}
+.fotosmalarx {   
+    float: right;           
+    width: 50px;           
+    margin-left: 20px;
+    margin-top: 300px;      
+    text-align: center;
+    margin-top: 0px;
+    padding-right: 0px !important;
+}
+
+.fotosmalarx {
+    width:42%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.fotosmala {
+    text-align: center;
+}
+.fotosmala img {
+    width: 50%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none;
+}
+.raquitifoto {
+    text-align: center;
+}
+.raquitifoto img {
+    width: 85%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none;
+}
+.condrosarcmri {   
+    float: right;           
+    width: 350px;           
+    margin-left: 20px;      
+    text-align: center;
+    margin-top: 0px;
+    padding-right: 0px !important;
+}
+
+.condrosarcmri img {
+    width:100%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none
+}
+.histosarc {
+    text-align: center;
+}
+.histosarc img {
+    width: 50%;            
+    height: auto;           
+    border-radius: none;     
+    border: none;
+    box-shadow: none;
+     }

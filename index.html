@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>TRABAJO ANATOMÍA PATOLÓGICA - html5</title>
+</head>
+<body class="todo">
+    <header>
+        <h1>Patología Ósea Tumoral y No Tumoral</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#patnotumor">Patología Ósea No Tumoral</a></li>
+                <li><a href="#pattumor">Patología Ósea Tumoral</a></li>
+                <li><a href="#autoev">¡Autoevalúate!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduccion">
+            <h1>Introducción</h1>
+            <p>La <strong>patología ósea</strong> comprende un amplio espectro de patologías y disfunciones cuyo origen puede ir desde un traumatismo, pasando por una deficiencia nutricional, hasta un proceso neoplásico, teniendo la gran mayoría una base morfológica definida. En esta página web vamos a abordar varias de estas patologías, sus causas y alteraciones estructurales..</p>
+            <p>En primer lugar, vamos a hacer una distinción entre la <strong>patología ósea tumoral y no tumoral</strong>. Dentro de la patología ósea no tumoral vamos a hacer hincapié en las patologías provocadas por déficits nutricionales y desajustes hormonales. En el espectro de la patología tumoral, vamos a diferenciar entre <strong>patologías primarias benignas y malignas y metástasis</strong>.</p>
+        </section>
+
+        <section id="patnotumor">
+            <h1>Patología Ósea No Tumoral</h1>
+            <div class="osteoide-cabecera">
+                <h2>Osteoporosis postmenopáusica <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h2>
+                <p>La <strong>osteoporosis postmenopáusica</strong> consiste en una alteración metabólica sistémica crónica en la que disminuye la masa ósea, por lo que varía la arquitectura microscópica del hueso, provocando una <span class="importante">mayor fragilidad ósea y riesgo de fracturas</span>. Afecta principalmente a <span class="importante">mujeres menopáusicas mayores de 50 años</span>, teniendo en cuenta que el riesgo de padecerla aumenta ante antecedentes familiares de osteoporosis, una edad avanzada, menopausia precoz, o <span class="importante">déficit de calcio y vitamina D</span>. En fases iniciales es asintomática, sin embargo, de forma tardía se manifiesta como fracturas por fragilidad ósea ante pequeños traumatismos, dolor óseo, pérdida de estatura o cifosis dorsal; lo que se debe a que afecte, sobre todo, al <span class="importante">hueso esponjoso</span> de vértebras, cuello del fémur y del radio distal.</p>
+                <p>En condiciones fisiológicas, los estrógenos permiten el equilibrio entre la formación y resorción ósea al estabilizar osteoblastos y osteoclastos, ya que inhiben la acumulación de HIF-1α (<i>Factor Inducible por Hipoxia</i>), proteína que se encuentra en zonas hipóxicas del hueso, al igual que los osteoclastos, y los activan. Con la menopausia, existe un déficit de estrógenos, por lo que HIF-1α se acumula en los osteoclastos, favoreciendo su activación, el incremento de resorción ósea, y por tanto, la pérdida de masa ósea al no haber suficiente formación ósea que la compense.</p>
+                <p>Aparte de las consecuencias causadas por la deficiencia de estrógenos, el <span class="importante">sistema inmunitario alterado</span> en mujeres postmenopáusicas también podría contribuir a la pérdida de masa ósea, ya que, en ocasiones, presentan un <span class="importante">fenotipo inflamatorio crónico de bajo grado</span> con expresión de citocinas y células inmunitarias alteradas que interactúan con osteoblastos y osteoclastos. Por ejemplo, algunos linfocitos T expresan TNF-α, que incrementa la apoptosis de los osteoblastos y favorece la osteoclastogénesis a través del ligando activador del receptor de NF-kB (<span class="importante">RANKL</span>). Otro caso serían las células Th17, que liberan IL-17, favoreciendo la osteogénesis, pero a su vez, también facilitan la diferenciación de células madre hacia osteoclastos. Además, los linfocitos B contribuyen en la regulación de la formación de osteoclastos a través de la secreción del G-CSF y el sistema RANKL/osteoprotegerina en condiciones de deficiencia de estrógenos. Por otra parte, los neutrófilos son importantes en la homeostasis ósea, sin embargo, su sobreactivación ante un déficit de estrógenos contribuye a la apoptosis de osteoblastos a través de la liberación de ROS y el aumento de la osteoclastogénesis mediante la señalización de RANKL. Por último, los mastocitos aumentan considerablemente en la osteoporosis postmenopáusica, almacenando altos niveles de mediadores osteoclásticos en sus gránulos (como IL-6 y RANKL).</p>
+                <p>A nivel microscópico, la osteoporosis postmenopáusica se caracteriza por una <span class="importante">disminución en número y grosor de las trabéculas del hueso</span>, un aumento de los espacios intertrabeculares, pérdida de conectividad entre trabéculas, adelgazamiento del hueso cortical, y un aumento en número y actividad osteoclástica.</p>
+                <div class="osteop2">
+                    <img src="img/osteop2.png" alt="">
+                    <p class="pie-foto">(A) Radiografía de cadera normal de mujer de 57 años, con un T-score de -0,7. (B) Radiografía de cadera con osteoporosis en mujer de 84 años, con un T-score de -4,6.</p>
+                </div>
+                <p>Para el diagnóstico de la osteoporosis postmenopáusica, podemos solicitar una radiografía convencional, en la que se observará el hueso radiolúcido debido a la disminución de la densidad ósea, un adelgazamiento del hueso compacto, y, en el caso de que hubiese afectación vertebral, serían visibles también aplastamientos vertebrales, con vértebras bicóncavas o “en cuña”. Sin embargo, la prueba diagnóstica más sensible es la DEXA (densitometría ósea), que permite cuantificar la pérdida de masa ósea mediante el <span class="importante">T-score</span> (será menor a -2,5). </p>
+                <p>En cuanto al tratamiento, la paciente deberá adoptar una dieta en la que se asegure el adecuado aporte de calcio y vitamina D, así como realizar ejercicio físico y prevenir caídas. Además, la paciente requerirá la administración de fármacos inhibidores de la actividad osteoclástica (antirresortivos), como los bifosfonatos o el denosumab. Si la paciente tiene riesgo muy elevado de fractura, se emplearán también fármacos anabólicos óseos, como la teriparatida o el romosozumab. Actualmente, existen estudios experimentales en los que se ha demostrado que la inhibición de HIF-1α es eficaz frente a la pérdida ósea inducida por déficit de estrógenos, ya que bloquean la activación de osteoclastos sin afectar al recambio óseo fisiológico.</p>
+                <div class="osteop1">
+                    <img src="img/osteop1.png" alt="">
+                    <p class="pie-foto">(A) Biopsia ósea de cresta ilíaca en la que se observa adelgazamiento de la corteza ósea (borde izquierdo), así como la grave pérdida de hueso esponjoso y la disminución de interconexiones trabeculares. (B) Ampliación de la anterior biopsia ósea de cresta ilíaca, en la que se observa adelgazamiento severo trabecular y escasez de interconexiones entre trabéculas.</p>
+                </div>
+                <details>
+                    <summary>📚 Bibliografía y Fuentes</summary>
+                     <ul>
+                        <li>Brown, J. P. (2021). Long-Term Treatment of Postmenopausal Osteoporosis. <i>Endocrinology and Metabolism (Seoul, Korea), 36</i>(3), 544–552. <a href="https://10.3803/EnM.2021.301" target="_blank"></a></li>
+                         <li>Fischer, V., & Haffner-Luntzer, M. (2022). Interaction between bone and immune cells: Implications for postmenopausal osteoporosis. <i>Seminars in Cell & Developmental Biology, 123</i>, 14–21. <a href=" https://10.1016/j.semcdb.2021.05.014" target="_blank"></a></li>
+                         <li>Miyamoto, T. (2015). Mechanism Underlying Post-menopausal Osteoporosis: HIF1α is Required for Osteoclast Activation by Estrogen Deficiency. <i>The Keio Journal of Medicine, 64(3), 44–47</i>. <a href="https://10.2302/kjm.2015-0003-RE" target="_blank"></a></li>
+                        </ul>
+                </details>
+            </div>
+            <div class="osteoide-cabecera">
+                <h2>Osteomalacia y Raquitismo <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h2>
+                <div class="fotosmalarx">
+                        <img src="img/osteomalarx.png" alt="">
+                        <p class="pie-foto">Radiografía donde observamos pseudofracturas en tibia y peroné derechos.</p>
+                    </div>
+                <p>La <strong>osteomalacia</strong> es una <span class="importante">enfermedad metabólica caracterizada por defecto en la mineralización del osteoide</span>. Se produce la formación de la matriz ósea del hueso pero no se mineraliza debido a un déficit de calcio, fosfato o a través de alteraciones hormonales. La consecuencia que origina es un <span class>aumento en la fragilidad ósea</span> que puede llegar a derivar en fracturas. Los adultos son la población más afectada, pudiendo originarse en un raquitismo no diagnosticado en la infancia. Los huesos más afectados serían sobretodo​ pelvis, cadera, fémur, columna vertebral, costillas,  escápulas y los huesos largos debido a la gran capacidad de regeneración del hueso, el alto peso de las estructuras que sostienen y la enorme cantidad de hueso trabecular que tienen que es propenso a la deformación e incluso, a las fracturas. Las causas de la osteomalacia pueden ser:</p>
+                <ul class="parrafomalacia">
+                    <li><strong>Déficit de vitamina D</strong>: ausencia de exposición al sol, dieta pobre o malabsorción de esta.</li>
+                    <li><strong>Déficit de calcio o fosfato</strong>: fundamental para la formación de hidroxiapatita.</li>
+                    <li><strong>TIO</strong> (<i>Tumor-Induced Osteomalacia</i>): son tumores mesenquimales que producen FGF23 que causan la pérdida renal del fosfato e inhiben la activación de la vitamina D.</li>
+                    <li><strong>Formas hereditarias</strong>: como puede ser la hipofosfatemia ligada al cromosoma X.</li>
+                    <li><strong>Enfermedades sistémicas</strong> como es la insuficiencia renal crónica que reduce la síntesis del calcitriol alterando el manejo del calcio y fósforo o con la presencia de medicamentos que alteran el metabolismo de la vitamina D que podrían ser los antiepilépticos y los corticoesteroides.</li>
+                    <li><strong>Malabsorción intestinal</strong>: celiaquía o cirugía bariátrica.</li>
+                </ul>
+                <p>En cuanto a la fisiopatología, como ya se ha comentado, se produce por un <span class="importante">fracaso en la mineralización del osteoide producida por los osteoblastos</span>, ya que no disponen de calcio y fosfato para la formación de la hidroxiapatita ni de calcitriol o vitamina D, la cual se absorbe en el intestino y se fija el hueso, por lo que no puede endurecer la matriz. El fallo en la osteomalacia es que si se que forma el osteoide pero no se mineraliza, por lo que se produce es la formación de hueso blando originando microfracturas que producen dolor óseo y debilidad muscular. Los mecanismos que provocan la osteomalacia dependen de la causa primaria que lo provoca, pudiendo clasificar varios tipos de osteomalacia:</p>
+                <ul>
+                    <li><strong>Osteomalacia por déficit de vitamina D</strong>: la falta de vitamina D hace que se produzca una disminución del calcitriol y aumente la absorción intestinal del calcio y del fósforo. Esto produce una disminución del calcio sérico aumentando la PTH (parathormona) que va a producir un aumento de la resorción ósea y el aumento de la pérdida renal de fosfato. El resultado final es la presencia de una hipofosfatemia y un fallo en la mineralización del osteoide.</li>
+                    <li><strong>Osteomalacia hipofosfatémica</strong> (<strong>FGF23</strong>): afecta a nivel endocrino ya que los osteocitos producen la hormona FGF23. La función de esta hormona es la eliminación del fosfato del riñón y la ausencia de producción del calcitriol. En este tipo de osteomalacia, se produce una gran cantidad de hormona FGF23 que hace que el fosfato del riñón  sea eliminado en la orina. Esto genera una disminución del fosfato sérico y el calcitriol y esto produce una disminución en la absorción intestinal del calcio y del fósforo. El resultado final es un osteoide sin mineralizar.</li>
+                    <li><strong>Osteomalacia en enfermedad renal crónica</strong>: el problema es que el riñón no convierte la vitamina D en calcitriol y provoca la retención del fósforo. Esto produce un aumento de la PTH que altera el equilibrio de calcio y fosfato formando un osteoide sin mineralizar.</li>
+                    <li><strong>Osteomalacia por malabsorción o por fármacos</strong>: no se absorbe la vitamina D o el calcio por lo que disminuye la cantidad de calcitriol. Esto conlleva a una disminución del calcio y del fósforo y un aumento de la PTH por lo que se forma un osteoide sin mineralizar.</li>
+                </ul>
+                    <div class="fotosmala">
+                        <img src="img/osteomala.jpg" alt="">
+                        <p class="pie-foto">Micrografía óptica de un corte transversal de tejido óseo en pacientes con osteomalacia. La red de soportes óseos (trabéculas) tiene un núcleo (azul), rodeado de hueso nuevo pero incompleto (osteoide, rosa). Los espacios entre las trabéculas son blancos y están llenos de células (núcleos oscuros). Este crecimiento óseo anormal, generalmente causado por una deficiencia de vitamina D, provoca deformidades óseas (https://www.sciencephoto.com/media/129187/view/osteomalacia-light-micrograph)</p>
+                    </div>
+                <p>El paciente suele presentar un <span class="importante">dolor óseo difuso profundo y mal localizado</span>, un debilitamiento muscular proximal que produce dificultad para levantarse o subir escaleras, una fragilidad ósea y <span class="importante">fracturas sobretodo en pelvis, costillas y vértebras</span> y una miopatía generalizada con dolor severo que se produciría en el caso de la osteomalacia tumoral por la presencia del FGF23. Además de las alteraciones del calcio y del fosfato en sangre, se produce una elevación de la fosfatasa alcalina por la alta activación en el remodelado óseo. Esa persona, podría padecer espasmos musculares, tetania e hipocalcemia. En una preparación histológica se observa una acumulación de osteoide no mineralizado, es decir, una cantidad de más del 10% del área trabecular y  un mayor espesor del osteoide no mineralizado y poca cantidad de calcio y fosfato. Por otro lado, a nivel radiológico se visualizaría una osteopenia difusa que tiene un terreno de vidrio o cristalino, <span class="importante">pseudofracturas, fracturas y deformidades óseas</span>.</p>
+                <p>Con respecto al tratamiento, ante una persona con un déficit de vitamina D puede administrarse un suplemento para elevarla; en el caso de una hipofosfatemia se debe suministrar fosfato oral y si estamos ante enfermedades gastrointestinales se debe llevar una dieta determinada que permita equilibrar el déficit nutricional.</p>
+                <p>El <strong>raquitismo</strong> es una <span class="importante">enfermedad ósea metabólica basada en un fallo en la mineralización del cartílago de crecimiento y del hueso  antes de que se produzca el cierre en la epífisis del hueso</span>. El raquitismo y la osteomalacia son la misma enfermedad solo que el raquitismo tiene lugar en la población infantil con la placa epifisaria abierta y la osteomalacia se da en la población adulta donde la placa epifisaria ya está totalmente cerrada. Si no se controla el raquitismo, puede derivar en una osteomalacia en los adultos.</p>
+                <p> El raquitismo afecta a la <span class="importante">población infantil</span>, exclusivamente, a niños y lactantes durante el periodo del desarrollo de crecimiento. Los adolescentes también la pueden sufren hasta que se produzca el cierre de las placas epifisarias. Ocurre expresamente en el <span class="importante">cartílago epifisario de los huesos largos</span>, es decir, en la metáfisis del fémur, tibia y radio, ya que son zonas que crecen rápidamente y necesitan mucha cantidad de mineralización. Al igual que la osteomalacia, el raquitismo puede tener varias causas:</p>
+                <ul>
+                    <li><strong>Origen metabólico</strong>: en el metabolismo tenemos un déficit de vitamina D o de fosfato que conlleva a una mala absorción del calcio y del fósforo produciendo una alteración de la homeostasis mineral.</li>
+                    <li><strong>Origen renal y hormonal</strong>: se produce un aumento de la cantidad de FGF23 que desencadena en una pérdida renal del fósforo . La baja cantidad de fósforo es la causa del raquitismo.</li>
+                    <li><strong>Origen genético</strong>: se debe a mutaciones que son hereditarias: mutación en <strong>PHEX</strong> es la causante de un aumento de FGF23 y mutaciones en el <strong>receptor de Vitamina D</strong> (VDR) que son los causantes de generar una resistencia de la vitamina D.</li>
+                </ul>
+                <p>La falta de vitamina D y de fósforo son los que van a provocar que la mineralizacíón del cartílago se vea afectada y se produzca una gran acumulación de osteoide sin mineralizar, causando las deformidades óseas. La clave es que <span class="importante">el cartílago crece pero no se endurece</span> y por lo tanto, el hueso no es firme. Los pacientes suelen presentar <span class="importante">piernas arqueadas, mayor retraso en el crecimiento, dolor óseo y debilidad muscular y falta de cierre de las fontanelas craneales</span> Si observáramos una preparación microscópica de un paciente con raquitismo observaríamos un engrosamiento en la placa de crecimiento con una gran desorganización del cartílago, el osteoide desmineralizado y zonas hipertrófica sin calcificar. En la placa radiográfica se puede observar una <span class="importante">metáfisis en copa, placas de crecimiento ensanchadas, osteopenia y suelen aparecer deformidades angulares</span>. En cuanto al tratamiento, va a depender del tipo de raquitismo que presente el paciente:</p>
+                <ul>
+                    <li><strong>Déficit de vitamina D</strong>: se le administra al paciente colecalciferol (vitamina D3) o ergocalciferol (vitamina D2) en distintas dosis  en función de la gravedad con el fin de aumentar la absorción intestinal de calcio y de fósforo y producir una mineralización normal de cartílago.</li>
+                    <li><strong>Raquitismo hipofosfatémico</strong>: el problema aquí es la pérdida del fosfato a nivel renal por lo que se administra Selena de fosfato con el fin de corregir la hipofosfatemia y poder reanudar la mineralización mineral ósea</li>
+                    <li>Terapia dirigida con Barosumab contra el <strong>raquitismo hipofosfatémico ligado al X</strong> originado por la mutación del gen PHEX. Con este tratamiento, generamos un anticuerpo monoclonal contra FGF23 con el fin de fiminuir la pérdida de fosfato y así mejorar la mineralización, el dolor y el crecimiento.</li>
+                    <li>Si tenemos un raquitismo en el que hay una resistencia a la vitamina D o bien se aumenta mucho la dosis de vitamina D activa o en casos graves se administra calcio intravenoso.</li>
+                </ul>
+                <div class="raquitifoto">
+                    <img src="img/raquitismo.png" alt="">
+                    <p class="pie-foto">Radiografía AP de ambos antebrazos (A) y rodillas (B) muestran osteopenia difusa y marcada irregularidad de las metáfisis distales de ambos radios y cúbitos (flechas), con ensanchamiento secundario de las fisis o placas de crecimiento, hallazgos característicos de raquitismo. https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0370-41062013000600011</p>
+                </div>
+                <p>Una dieta activa en calcio y vitamina D y una exposición a la radiación solar aumenta la síntesis cutánea de vitamina D,  sobre todo en lactantes y en niños. Los niños suelen mejorar con tratamiento médico y la cirugía sólo se produce en las deformidades graves persistentes. Se debe realizar un seguimiento de calcio, fósforo, PTH y la fosfatasa alcalina para evaluar que el crecimiento sea adecuado.</p>
+                <details>
+                    <summary>📚 Bibliografía y Fuentes</summary>
+                     <ul>
+                        <li>Arboleya, L., Braña, I., Pardo, E., Loredo, M., & Queiro, R. (2023). Osteomalacia in Adults: A Practical Insight for Clinicians. <i>Journal of Clinical Medicine, 12</i>(7), 2714. doi: 10.3390/jcm12072714. <a href="https://10.3390/jcm12072714" target="_blank"></a></li>
+                         <li>Jha, S. S., Srivastava, A., Kambhampati, S. B. S., & Elhence, A. (2023). Introduction to Osteoporosis, Osteomalacia, and Fragility Fractures. <i>Indian Journal of Orthopaedics, 57</i>(Suppl 1), 25–32.<a href="https://10.1007/s43465-023-01015-0" target="_blank"></a></li>
+                         <li>Modest, J., Sheth, H., Gohh, R., & Aaron, R. (2022). Osteomalacia and Renal Osteodystrophy. <i>Rhode Island Medical Journal (2013), 105</i>(8), 22–27.</li>
+                        </ul>
+                </details>
+            </div>
+        </section>
+        <section id="pattumor">
+            <h1>Patología Ósea Tumoral</h1>
+            <div>
+                <h2>Benigna</h2>
+                <p>Dentro de la patología tumoral benigna ósea hemos seleccionado las patologías más prevalentes, entre las que se incluyen el <strong>osteocondroma</strong>, el <strong>condroma/encondroma</strong>, el <strong>osteoma osteoide</strong> y el <strong>osteoblastoma</strong>.</p>
+            <p>En cuanto a estas dos últimas, el osteoma osteoide y el osteoblastoma son dos entidades formadoras de osteoide y hueso inmaduro, las cuales comparten numerosas características tanto a nivel histológico como molecular. No obstante, se distinguen fundamentalmente por su localización anatómica, dimensiones y comportamiento clínico.</p>
+            <div class="osteoide-cabecera">
+                <div class="osteoma-osteoide">
+                    <h3>Osteoma Osteoide <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    <p>El <strong>osteoma osteoide</strong> es el tercer tumor óseo benigno más frecuente. Afecta a <span class="importante">varones jóvenes</span> y se manifiesta clínicamente por un <span class="importante">dolor nocturno intenso que remite con el uso de antiinflamatorios no esteroideos (AINEs)</span>. Esta clínica se explica por la elevada producción de prostaglandinas, concretamente PGE2, que aparece de forma secundaria a la elevada actividad osteoblástica del tumor. Los AINEs inhiben la síntesis de PGE2 mediante el bloqueo de las ciclooxigenasas, lo que respalda la respuesta analgésica de estos fármacos.</p>
+                    <p>Desde el punto de vista anatómico, el osteoma osteoide se localiza <span class="importante">preferentemente en la zona cortical de huesos largos</span>, principalmente tibia o fémur, lo que se relaciona con la intensa esclerosis reactiva del hueso adyacente. Esto se puede comprobar a nivel radiológico, pues la imagen radiológica típica muestra un nidus intracortical radiolúcido asociado a engrosamiento cortical y marcada esclerosis reactiva. A nivel histológico, el nidus es pequeño (1,5-2 cm), bien delimitado y formado por osteoblastos pequeños, con núcleos monomórficos y citoplasma bien definido.</p>
+                    <div class="tac-osteoide">
+                        <img src="img/tacosteoide.png" alt="">
+                        <p class="pie-foto">TC de la diáfisis de la tibia. Cortes axial (a) y sagital (b) que muestran un nidus intracortical radiolúcido asociado a engrosamiento cortical y marcada esclerosis reactiva. La flecha indica una zona de mineralización. (Parmeggiani et al., 2021)</p>
+                    </div>
+                </div>
+            </div>
+                
+                <div class="osteoide-cabecera">
+                    <div class="osteoblastoma">
+                        <h3>Osteoblastoma <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                        <p>El <strong>osteoblastoma</strong>, por el contrario, aunque también afecta a <span class="importante">varones jóvenes</span> y puede cursar con dolor nocturno, <span class="importante">no responde al tratamiento con AINEs</span>. Esto se debe a que el dolor está más relacionado con el crecimiento expansivo del tumor y la posible compresión de estructuras adyacentes, más que con la sobreproducción de prostaglandinas. De hecho, su localización más característica es la <span class="importante">columna vertebral</span>, principalmente la zona posterior y con una disposición intramedular, lo que puede derivar en síntomas neurológicos. El osteoblastoma tiene un <span class="importante">comportamiento local más agresivo, mayor tamaño y se asocia a un mayor riesgo de recidiva</span>. </p>
+                        <p>Histológicamente, el nidus es  mayor (>2cm), menos delimitado y con menor esclerosis periférica. El patrón de los osteoblastos es más variable, pueden ser de diferentes tamaños, con abundante citoplasma eosinofílico y núcleos algo más irregulares, aunque sin criterios de malignidad</p>
+                    </div>    
+                </div>
+                <div class="osteoide-cabecera">
+                        <h4>Osteoblastoma vs Osteoma Osteoide <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h4>
+                    <div class="fotoosteovsosteoi">
+                        <div class="osteobl-vs-osteoid">
+                        <img src="img/osteoblvsosteoid.png" alt="">
+                        <p class="pie-foto"> Osteoma osteoide y osteoblastoma. Tinción de Hematoxilina y Eosina (H&E) del nidus de un osteoma osteoide (a) y de un osteoblastoma (b). Se observan trabéculas regulares de hueso plexiforme (hueso maduro e inmaduro entremezclado) rodeadas por osteoblastos activos. Tanto el osteoma osteoide como el osteoblastoma presentan una expresión nuclear de FOS intensa y difusa. Las células gigantes de tipo osteoclasto son negativas (flecha) (c) y (d). La hibridación in situ fluorescente (FISH) mediante el uso de sondas de ruptura (split-apart probes) para FOS muestra señales rojas y verdes segregadas tanto en el osteoma osteoide como en el osteoblastoma, lo que indica un reordenamiento del gen FOS (e) y (f).</p>
+                        </div>
+                    </div>
+                    <p>A pesar de las diferencias mencionadas, ambas lesiones comparten rasgos histológicos fundamentales. Como se ha mencionado, <span class="importante">ambos son tumores formadores de osteoide y hueso inmaduro</span>, caracterizados por la presencia de trabéculas irregulares revestidas por osteoblastos activos e inmersas en un estroma muy vascularizado. Estas características se correlacionan con la <span class="importante">sobreexpresión del gen FOS y la activación del complejo de transcripción AP-1</span> que se explicarán a continuación.</p>
+                    <p>Desde el punto de vista molecular, estas características histológicas, se asocian con el reordenamiento de los genes FOS y FOSB. Las mutaciones del gen FOS se detectan en aproximadamente el 87% de los casos, mientras que las alteraciones del gen FOSB son mucho menos frecuentes (menor del 3%). La familia de genes FOS, incluye FOS, FOSB, FOSL1 y FOSL2, codifica factores de transcripción que pueden dimerizarse con proteínas de la familia JUN, formando así el complejo de transcripción AP-1. Este complejo regula genes implicados en la maduración osteoblástica, producción de matriz ósea y angiogénesis, entre otros, lo que explica que estas lesiones comentadas se manifiesten como formadoras de osteoide. En condiciones fisiológicas existen mecanismos estrictos de degradación  para estas proteínas; no obstante, los reordenamientos genéticos hacen que las proteínas sean resistentes a la degradación y conducen hacia una sobreexpresión de las mismas. </p>
+                    <p>La inmunohistoquímica para FOS y FOSB es una herramienta muy útil que favorece el diagnóstico, ya que la tinción nuclear intensa de FOS se correlaciona estrechamente con la presencia de reordenamientos del gen, confirmados mediante FISH. Sin embargo, esta técnica no es infalible. Por ejemplo, la descalcificación prolongada (>3 días), especialmente con métodos ácidos, reduce o elimina la inmunorreactividad, produciendo falsos negativos. Por este motivo, los <strong>resultados deben interpretarse siempre en relación con la clínica, pruebas radiológicas e histología</strong>. En casos donde la inmunohistoquímica resulte negativa, pero exista una elevada sospecha diagnóstica, se recomienda confirmar la alteración genética subyacente con técnicas más específicas como el FISH.</p>
+                    <p>Durante muchos años, la cirugía era considerada la única opción terapéutica para el osteoma osteoide. El abordaje quirúrgico consistía en la resección en bloque del segmento óseo afectado, lo que aseguraba la ausencia de riesgo de recidiva siempre y cuando la exéresis fuese completa. Esta opción podía resultar muy útil especialmente en aquellas zonas más complejas, como la columna vertebral, teniendo incluso menor tasa de recidiva en comparación con la ablación por radiofrecuencia (1,7% vs 12,5%). Sin embargo, las principales desventajas de la cirugía son: mayor riesgo de fracturas, incisión quirúrgica más amplia, mayor estancia hospitalaria y mayor morbilidad postoperatoria. Es por estos motivos que en las últimas décadas, se ha producido el desarrollo de técnicas percutáneas mínimamente invasivas, las cuales han supuesto un antes y un después en el tratamiento de esta lesión. Estas han conseguido tasas de éxito similares o incluso superiores a las de la cirugía convencional, menor tasa de complicaciones y menor tiempo de hospitalización, lo que ha conducido a que hoy en día se consideren como la primera línea de tratamiento en la mayoría de los casos. La elección de la técnica más adecuada dependerá de factores como la edad del paciente, la localización anatómica o la disponibilidad de recursos tecnológicos.</p>
+                    <div class="bibliografia-seccion">
+    <details>
+        <summary>📚 Bibliografía y Fuentes</summary>
+        <ul>
+            <li>Parmeggiani, A., Martella, C., Ceccarelli, L., Miceli, M., Spinnato, P., & Facchini, G. (2021). Osteoid osteoma: which is the best mininvasive treatment option?. <i>European journal of orthopaedic surgery & traumatology : orthopedie traumatologie, 31</i> (8), 1611–1624. <a href="https://doi.org/10.1007/s00590-021-02946-w" target="_blank"></a></li>
+            <li>Cordier, F., & Creytens, D. (2023). New kids on the block: FOS and FOSB gene. <i>Journal of clinical pathology, 76</i>(11), 721–726. <a href="https://doi.org/10.1136/jcp-2023-208931" target="_blank"></a></li>
+            <li>Lam, S. W., Cleven, A. H. G., Kroon, H. M., Briaire-de Bruijn, I. H., Szuhai, K., & Bovée, J. V. M. G. (2020). Utility of FOS as diagnostic marker for osteoid osteoma and osteoblastoma. <i>Virchows Archiv : an international journal of pathology, 476</i> (3), 455–463. <a href="https://doi.org/10.1007/s00428-019-02684-9" target="_blank"></a></li>
+        </ul>
+    </details>
+</div>
+                
+                <div>
+                    <h3>Osteocondroma <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    <div class="setaosteoc">
+                        <img src="img/setaosteocondroma.jpg" alt="">
+                        <p class="pie-foto">Radiografía en la que se observa la excrecencia ósea en forma de seta y su continuidad con el canal medular.</p>
+                    </div>
+                    <p>El <strong>osteocondroma</strong> es el <span class="importante">tumor óseo benigno más común</span>, comprendiendo entre el 20-50% de los casos de tumores óseos benignos y un 9% de los tumores óseos primarios. Es más prevalente en hombres y el 75% se manifiesta antes de los 20 años. Sin embargo, la incidencia real de este tipo de tumor es desconocida debido a que muchos de los pacientes que los presentan son asintomáticos y la mayoría de osteocondromas son hallazgos radiológicos incidentales.</p>
+                    <p>Se define como una excrecencia ósea principalmente en la <span class="importante">metáfisis de huesos largos</span> (tibia, fémur, radio, …). Los dos hallazgos patognomónicos de osteocondroma son una <span class="importante">capucha o casquete de cartílago que recubre la excrecencia</span> y la <span class="importante">continuidad de esta con la cavidad medular</span>. En una radiografía se observa una especie de <span class="importante">seta</span> sobresaliendo de la metáfisis. Como se ha comentado, la mayoría se diagnostican como hallazgos incidentales en radiografías. Sin embargo, la segunda aparición más frecuente es una masa visible no dolorosa que se presenta en el hueso afectado (sobre todo si es en costillas o la zona proximal de la tibia).</p>
+                    <p>En cuanto a la patogénesis, el 85% se presenta como lesiones únicas, mientras que el 15% restante se dan en el contexto de la exostosis hereditaria múltiple (EHM), una enfermedad genética con herencia autosómica dominante que afecta a los <span class="importante">genes EXT1 y EXT2</span>. En pacientes con EHM hay numerosas mutaciones (missense, nonsense, …), por lo que no hay un tipo de mutación específica relacionada con la formación de osteocondromas. Algo curioso es que los pacientes europeos con EHM y que desarrollan osteocondromas es más común encontrar mutaciones en EXT1, mientras que en pacientes asiáticos de las mismas características son más comunes las mutaciones en EXT2. Los genes EXT1 y EXT2 pertenecen a la familia EXT, responsable de la codificación de glicosiltransferasas, proteínas clave en la síntesis de heparán sulfato, un compuesto clave en la regulación de la formación de hueso y cartílago.</p>
+                    <p>Actualmente no existe un tratamiento definido para este tipo de tumores, no hay ningún fármaco con eficacia probada para el osteocondroma y la resección quirúrgica se indica en casos en que los pacientes manifiesten dolor, haya ciertas complicaciones, razones estéticas o riesgo aumentado de transformación maligna. Aunque solo se presenta en el 1% de los casos de osteocondroma solitario y en el 10% de los pacientes con EHM, la transformación maligna de la capucha de cartílago a un condrosarcoma es una de las primeras cosas que hay que descartar. Como norma, los pacientes con dolor próximo a un osteocondroma preexistente deben realizarse una resonancia magnética para descartar un posible condrosarcoma.</p>
+    <details>
+        <summary>📚 Bibliografía y Fuentes</summary>
+        <ul>
+            <li>Hakim, D. N., Pelly, T., Kulendran, M., & Caris, J. A. (2015). Benign tumours of the bone: A review. <i>Journal of Bone Oncology, 4</i>(2), 37–41.  <a href=" https://10.1016/j.jbo.2015.02.001" target="_blank"></a></li>
+            <li>Tepelenis, K., Papathanakos, G., Kitsouli, A., Troupis, T., Barbouti, A., Vlachos, K., Kanavaros, P., & Kitsoulis, P. (2021). Osteochondromas: An Updated Review of Epidemiology, Pathogenesis, Clinical Presentation, Radiological Features and Treatment Options. <i>In Vivo (Athens, Greece), 35</i>(2), 681–691. <a href="https://10.21873/invivo.12308" target="_blank"></a></li>
+        </ul>
+    </details>
+                </div>
+                <div>
+                    <h3>Condroma/Encondroma <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    <p>El <strong>encondroma/condroma</strong> es un tumor cartilaginoso benigno formado por cartílago hialino maduro que se desarrolla como consecuencia de la desregulación de la diferenciación terminal de la placa de crecimiento en huesos largos. Alrededor de un tercio de los encondromas/condromas se generan en la <span class="importante">mano</span>, tanto es así que el 90% de tumores benignos de la mano son encondromas/condromas.</p>
+                    <p>Hasta ahora hemos tratado a encondromas y condromas como la misma patología, pero, ¿en qué se diferencian? La <span class="importante">diferencia fundamental es la localización</span>. El condroma se halla en una localización periférica de la extremidad, pudiendo no afectar al hueso y afectar solamente a tejidos blandos; mientras que, los encondromas están más próximos al hueso y sí lo suelen afectar.</p>
+                    <p>Los encondromas pueden aparecer como lesiones solitarias o como múltiples lesiones, conocidas como encondromatosis, en pacientes con enfermedad de Ollier o síndrome de Maffucci. Las mutaciones más comunes presentes en los encondromas son las mutaciones de los <span class="importante">genes IDH1 e IDH2</span>, sin embargo, también se han descrito casos de mutaciones de intermediarios de la vía de señalización Hedgehog. En pacientes con múltiples encondromas es más común la progresión a condrosarcomas que en pacientes que presentan lesiones solitarias. Como se comentará en el apartado de Condrosarcoma, este tipo de sarcoma también presenta mutaciones para IDH1 e IDH2, por lo que el hallazgo de mutaciones en estos genes no es patognomónico ni de encondroma ni de condrosarcoma, habiendo que realizar un diagnóstico en base a los hallazgos anatomopatológicos.</p>
+                    <p>En cuanto a los condromas, se ubican principalmente en extremidades, normalmente en los dedos de las manos. En cuanto al tratamiento, en ambos tipos de tumores depende principalmente de la localización y de la invasión de tejidos adyacentes (hueso, vasos, nervios, …), teniendo los encondromas un peor pronóstico en este sentido. Usualmente se opta por resecarlos siempre y cuando sean un problema para el paciente y no se vean afectadas estructuras adyacentes, como ya se ha comentado.</p>
+                    <div class="condromaenc">
+                        <img src="img/condromenc.png" alt="">
+                        <p class="pie-foto"> (a)Radiografía de paciente con enfermedad de Ollier con múltiples encondromas. (b y c) Rensonancia magnética del mismo paciente con encondroma en la falange distal del dedo índice de la mano izquierda. (d) Preparación de biopsia de encondroma del mismo paciente donde se observa un tejido cartilaginoso con ligero aumento de condrocitos y mínima atípia (Yue et al., 2022).</p>
+                    </div>
+                    <details>
+                         <summary>📚 Bibliografía y Fuentes</summary>
+                         <ul>
+                            <li>Hakim, D. N., Pelly, T., Kulendran, M., & Caris, J. A. (2015). Benign tumours of the bone: A review. <i>Journal of Bone Oncology, 4</i>(2), 37–41.  <a href=" https://10.1016/j.jbo.2015.02.001" target="_blank"></a></li>
+                            <li>Yue, K. C., Lans, J., Castelein, R. M., Suster, D. I., Nielsen, G. P., Chen, N. C., & Lozano-CalderÓn, S. A. (2022). Benign Hand Tumors (Part I): Cartilaginous and Bone Tumors. <i>Hand (New York, N.Y.), 17</i>(2), 346–353.  <a href="https://10.1177/1558944720922921" target="_blank"></a></li>
+                            <li>Zhang, H., & Alman, B. A. (2021). Enchondromatosis and Growth Plate Development. <i>Current Osteoporosis Reports, 19</i>(1), 40–49. <a href="https://10.1007/s11914-020-00639-7" target="_blank"></a></li>
+                        </ul>
+                    </details>
+                </div>
+            <div>
+                <h2>Maligna</h2>
+                <div class="osteoide-cabecera">
+                    <div>
+                        <h3>Tumor de Células Gigantes <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                        <div>
+                             <p>El <strong>tumor de células gigantes</strong> (<strong>TCG</strong>) es una neoplasia maligna localmente agresiva, poca capacidad de metástasis, que afecta principalmente a <span class="importante">adultos jóvenes (20-40 años)</span>. La localización anatómica característica es la <span class="importante">epífisis de huesos largos</span>, siendo lo más frecuente la epífisis distal del fémur o proximal de la tibia. Histológicamente el tumor está compuesto por dos poblaciones celulares principales: <span class="importante">células mononucleares fusiformes</span>, representan la población neoplásica verdadera y <span class="importante">células gigantes multinucleadas</span> de distribución homogénea, que son reactivas y no tumorales.</p>
+                        </div>
+                        <div class="bloque-mixto">
+                            <div class="radiog-tcg-der">
+                                <img src="img/rxtcg.png" alt="">
+                                <p class="pie-foto">A: radiografía epífisis distal del fémur con tumor de células gigantes (lado izquierdo).  B: progresión del tumor tras seis dosis de denosumab. C: curetaje intralesional y PMMA (Borkowska et al., 2022).</p>
+                                <div style="clear: both;"></div>
+                            </div>
+                        </div>
+                        <p>El descubrimiento de la <span class="importante">mutación H3F3A (G34W)</span>, presente en aproximadamente el 95% de los casos, permitió comprender el mecanismo biológico subyacente de este tumor. Esta mutación es exclusiva de las células mononucleares fusiformes y es la causa de la <span class="importante">sobreexpresión de RANKL</span> por parte de dichas células. El RANKL (<i>Receptor Activator of Nuclear Factor kB Ligand</i>) es una citoquina fundamental en la osteoclastogénesis. Su sobreexpresión promueve el reclutamiento de precursores de osteoclastos, que se fusionan entre sí dando lugar a las células gigantes multinucleadas, responsables de la intensa resorción ósea característica del TCG.</p>
+                        <p>Este hallazgo molecular no sólo permitió comprender el mecanismo patogénico del tumor, sino que fue determinante en el desarrollo de <strong>denosumab</strong>, una terapia dirigida frente a RANKL. Denosumab es un anticuerpo monoclonal humano dirigido frente a RANKL, cuya unión inhibe su interacción con el receptor RANK, bloqueando así la formación de nuevos osteoclastos. Además, favorece la desaparición de los osteoclastos ya existentes, deteniendo así la resorción ósea inducida por el tumor. Como consecuencia, tras el tratamiento se observa histológicamente la desaparición casi completa de las células gigantes multinucleadas; no obstante las células fusiformes neoplásicas persisten y continúan expresando RANKL. Esto implica que el tratamiento no erradica el tumor, sino que lo inactiva desde el punto de vista funcional, lo que da pie a una posible reactivación tumoral tras la suspensión del fármaco.</p>
+                        <div class="contenedor-imagen">
+                        <img src="img/tcg1.jpg" alt="">
+                        <p class="pie-foto">A1-2: componente mixto de células gigantes multinucleadas (negativas para el anticuerpo H3.3 G34W) y células mononucleares fusiformes (positivas para el anticuerpo H3.3 G34W). B1-2 / C1-2: después del tratamiento con denosumab se observa proliferación de células fusiformes y formación  de osteoide. Positividad uniforme para el anticuerpo H3.3 G34W tanto de las células fusiformes, como en las células osteocito-like presentes en el hueso formado. (Noguchi et al., 2023)</p></div>
+                        <div class="contenedor-imagen">
+                            <img src="img/tcg2.jpg" alt="">
+                            <p class="pie-foto">
+                                A1-2: proliferación de células mononucleares tras el tratamiento con denosumab, las cuales siguen siendo positivas para RANKL. B1-2 /C1-2: zonas de formación de osteoide con positividad para RANKL, únicamente de las células fusiformes presentes en las trabéculas (Noguchi et al., 2023).</p>
+                        </div>
+                        <p>Por otro lado, al estar bloqueada la actividad osteoclástica, se puede producir la diferenciación osteoblástica de las células tumorales. Es por ello que podemos ver la formación ósea en la zona de lesión, compuesta por células osteoblasto-like que rodean la matriz osteoide y células osteocito-like que quedarían atrapadas en su interior. La confirmación del origen tumoral de estas células se basa en que comparten la misma mutación H3F3A (G34W), ausente en el hueso normal. Básicamente este nuevo hueso formado presenta una arquitectura irregular y puede contener células tumorales activas atrapadas, lo que favorece posteriores recidivas.</p>
+                        <p>Desde el punto de vista terapéutico, este fármaco (Denosumab) se utiliza como tratamiento complementario para poder reducir el tamaño tumoral, disminuir la destrucción ósea y así favorecer la cirugía posterior. Entonces, la erradicación definitiva del tumor debe realizarse por medio de un procedimiento quirúrgico, existiendo dos posibles opciones. La resección en bloque se basa en la extirpación completa del tumor con márgenes sanos. Es el tratamiento que ofrece la mayor tasa de curación, aunque no siempre es posible debido a la localización anatómica de las lesiones y el impacto funcional. Como alternativa, el legrado o curetaje intralesional permite preservar la articulación y maximizar la función, al “abrir una ventana ósea cortical” y raspar la cavidad ósea. Este procedimiento tiene un mayor riesgo de recidiva, por lo que para disminuirlo se emplean adyuvantes físicos y químicos. El más importante es el polimetilmetacrilato (PMMA), cuya polimerización induce necrosis térmica de las células tumorales residuales y proporciona estabilidad estructural inmediata, permitiendo la carga precoz. Otros adyuvantes serían el fenol, la crioterapia o el injerto óseo.</p>
+                    </div>
+                    <details>
+                        <summary>📚 Bibliografía y Fuentes</summary>
+                        <ul>
+                            <li>Noguchi, T., Sakamoto, A., Murotani, Y., Murata, K., Hirata, M., Yamada, Y., Toguchida, J., & Matsuda, S. (2023). Inhibition of RANKL Expression in Osteocyte-like Differentiated Tumor Cells in Giant Cell Tumor of Bone After Denosumab Treatment. <i>The journal of histochemistry and cytochemistry : official journal of the Histochemistry Society, 71</i> (3), 131–138. <a href="https://doi.org/10.1369/00221554231163638" target="_blank"></a></li>
+                            <li>Borkowska, A. M., Szumera-Ciećkiewicz, A., Szostakowski, B., Pieńkowski, A., & Rutkowski, P. L. (2022). Denosumab in Giant Cell Tumor of Bone: Multidisciplinary Medical Management Based on Pathophysiological Mechanisms and Real-World Evidence. <i>Cancers, 14</i>(9), 2290. <a href="https://doi.org/10.3390/cancers14092290" target="_blank"></a></li>
+                        </ul>
+                    </details>
+                </div>
+                <div class="osteoide-cabecera">
+                    <h3>Osteosarcoma <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    
+                </div>
+                <div class="osteoide-cabecera">
+                    <h3>Condrosarcoma <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    <div class="condrosarcmri">
+                        <img src="img/mricondrosarc.png" alt="">
+                        <p class="pie-foto">Resonancia magnética de un paciente varón de 26 años con condrosarcoma en la pelvis izquierda. https://es.wikipedia.org/wiki/Archivo:Mrichondrosarcoma.jpg.</p>
+                    </div>
+                    <p>El <strong>condrosarcoma</strong> es un tumor óseo maligno primario en el que las células tumorales producen matriz cartilaginosa. Es el <span class="importante">segundo tumor óseo maligno más frecuente</span> después del osteosarcoma y es de crecimiento lento. Este tumor suele ser resistente a la quimioterapia. Principalmente afecta a <span class="importante">adultos entre los 40 y 70 años</span>, siendo muy raro en niños y adolescentes. Se origina en los huesos que se forman por osificación endocondral como puede ser la pelvis, el fémur y el húmero proximal, las costillas y la escápula.</p>
+                    <p>El tumor tiene distintos orígenes. Los condrocitos maduros o las células mesenquimales pueden sufrir una transformación maligna progresiva donde siguen manteniendo la capacidad de producir la matriz cartilaginosa pero pierden el control proliferativo por lo que es una matriz desorganizada que pierde la capacidad de apoptosis y adquieren una capacidad invasiva. Esta matriz cartilaginosa anómala viene originada por una <strong>mutación en COL2A1</strong> que genera una resistencia a los fármacos y una mayor agresividad debido a otra mutación, en este caso, en KDELR1. Las <span class="importante">mutaciones en IDH1 o IDH2</span> son más comunes y genera un tumor persistente y poco diferenciado. Las mutaciones en estos genes de la isocitrato deshidrogenasa también estaban presentes en el condroma/encondroma, por lo que su presencia no es un criterio diagnóstico de condrosarcoma. En los condrocitos maduros con mutaciones en IDH1 o IDH2 que se produce 2-hidroxiglutarato, provocando una alteración en la metilación del ADN,  en la diferenciación celular y en la homeostasis metabólica haciendo que el tumor crezca. Además, se produce una matriz anómala cartilaginosa que es hipóxica y ácida con el objetivo de proteger a las células tumorales y dificultar la penetración de los fármacos debido a la activación de la vía Hippo-YAP1. Esto va a ser fundamental para hacer que el tumor crezca lento pero progresivamente. El ambiente que va a favorecer el crecimiento óptimo del tumor es una matriz cartilaginosa densa con células inmunes disfuncionales y los fibroblastos asociados al tumor. Todos estos componentes hacen que se produzca una invasión local del tumor infiltrando en el hueso trabecular, la médula ósea y los tejidos blandos adyacentes mientras evitan al sistema inmunitario.</p>
+                    <p>El paciente sufre <span class="importante">dolor óseo progresivo</span> que provoca una limitación funcional y la  palpación de una masa e incluso puede sufrir fracturas progresivas. Los hallazgos anatomopatológicos incluyen una <span class="importante">matriz cartilaginosa abundante con condrocitos atípicos</span> de núcleos hipercromáticos o incluso con binucleación. Además, se va a ver claramente como el condrosarcoma invade el hueso trabecular. El tumor se va a clasificar en distinta gradación desde la gradación 1 a la gradación 3 dependiendo de la atipia celular, siendo el grado 3 el que más atipia presenta. En una radiografía podría observarse una lesión lítica y calcificaciones en forma de anillos y arcos con una expansión cortical. En los condrosarcomas más graves se puede llegar a observar una destrucción ósea.</p>
+                    <div class="histosarc">
+                        <img src="img/condrosarc.png" alt="">
+                        <p class="pie-foto">(A)Población de células de cartílago pleomórficas, (B) con binucleación, (C) y con áreas donde las células tienen anisocariosis nuclear marcada, núcleos irregulares, (D) (Rodríguez et al.).</p>
+                    </div>
+                    <p>Con respecto al tratamiento, puede llevarse a cabo una cirugía con el fin de extirpar completamente el tumor donde los márgenes que tengamos afectados nos van a determinar el pronóstico. La cirugía puede ser conservadora con el fin de mantener la pieza corporal o radical extirpando completamente el miembro si es necesario. El condrosarcoma de grado I suele tener una cirugía local amplia ya que tiene un crecimiento lento y con poca capacidad metastásica; en cambio, el condrosarcoma de grado II-III suele llevarse a cabo una cirugía radical ya que tienen mayor agresividad local y hay una mayor capacidad de metastatizar. La radioterapia podría proporcionarse en el caso de tener un tumor que es inoperable debido a localizaciones complejas y márgenes positivos. La quimioterapia no suele tener beneficio en los condrosarcomas por los mecanismos moleculares de resistencia del tumor y de dificultad de penetración del fármaco. Podría aplicarse terapias dirigidas a las mutaciones IDH1 o IDH2, la modulación del microambiente tumoral y la inhibición del eje íntegrina-Hippo-Yap1 que reduciría la agresividad del tumor y aumentaría la sensibilidad a los fármacos.</p>
+                    <details>
+                        <summary>📚 Bibliografía y Fuentes</summary>
+                        <ul>
+                            <li>Ingangi, V., De Chiara, A., Ferrara, G., Gallo, M., Catapano, A., Fazioli, F., Di Carluccio, G., Peranzoni, E., Marigo, I., Carriero, M. V., & Minopoli, M. (2024). Emerging Treatments Targeting the Tumor Microenvironment for Advanced Chondrosarcoma. <i>Cells, 13</i>(11), 977. doi: 10.3390/cells13110977. <a href="https://10.3390/cells13110977" target="_blank"></a></li>
+                            <li>Landuzzi, L., Ruzzi, F., Lollini, P., & Scotlandi, K. (2025). Chondrosarcoma: New Molecular Insights, Challenges in Near-Patient Preclinical Modeling, and Therapeutic Approaches. International Journal of Molecular Sciences, 26(4), 1542. doi: 10.3390/ijms26041542.<a href="https://10.3390/ijms26041542" target="_blank"></a></li>
+                            <li>Rodriguez, A., Ochoca, J., Narvaez, J. (2008). Condrosarcoma Mesenquimal Sinonasal Grado Tres y Carcinosarcoma de Glándula Mamaria de un Canino. Estudios Clínico e Histopatológico. <i>Int. J. Morphol., 26</i>(4):861-875. <a href="http://dx.doi.org/10.4067/S0717-95022008000400014 " target="_blank"></a></li>
+                            <li>Yin, H., Jiang, D., Li, Y., Chen, W., Zhang, J., Yang, X., Hu, J., & Wei, H. (2024). KDELR1 regulates chondrosarcoma drug resistance and malignant behavior through Intergrin-Hippo-YAP1 axis. <i>Cell Death & Disease, 15</i>(12), 928–7. <a href="https://10.1038/s41419-024-07264-7" target="_blank"></a></li>
+                        </ul>
+                    </details>
+                </div>
+                <div class="osteoide-cabecera">
+                    <h3>Sarcoma de Ewing <button class="btn-atlas" onclick="resaltarLocal(this)">Lo + importante</button></h3>
+                    <div class="ewinghisto">
+                        <img src="img/sarcewing.jpg" alt="">
+                        <p class="pie-foto">(A) Microfotografía de bajo aumento en el que se observa un crecimiento laminar de células redondas con citoplasma claro en paciente con sarcoma de Ewing. (B) Sarcoma de Ewing de la pared torácica con reacción estromal fibrosa. (C) A menudo, el sarcoma de Ewing puede presentar un crecimiento prominente perivascular. (D) En ocasiones, hay presencia de rosetas. (E) Fotomicrografía con proliferaciones monótonas de células redondas con citoplasma eosinófilo y núcleos redondos u ovoides. (F) El sarcoma de Ewing se caracteriza por la expresión intensa y difusa de CD99. (G) Caso raro de sarcoma de Ewing en el que se observa la expresión intensa y difusa de queratina AE1/AE3 (Dehner et al., 2024).</p>
+                    </div>
+                    <p>El <strong>sarcoma de Ewing</strong> es un tumor maligno primario de alto grado que forma parte del grupo de tumores caracterizados por <span class="importante">células pequeñas, redondas y azules</span>, las cuales son muy atípicas, agresivas y presentan una alta probabilidad de desarrollar <span class="metástasis temprana"></span> (metástasis al diagnóstico en el 25% de los casos en pulmón, hueso o médula ósea). Se trata del <span class="importante">segundo sarcoma óseo más común</span> en niños, adolescentes y adultos jóvenes, existiendo un pico de incidencia entre los 10-20 años, predominando en varones, y siendo más frecuente entre la población caucásica. Se localiza en la <span class="importante">diáfisis de huesos largos</span>(como el húmero, el fémur o la tibia), aunque también lo podemos encontrar en la pelvis, teniendo esta última ubicación peor pronóstico, o incluso de manera extraósea, en tejidos blandos. Se manifiesta en forma de un <span class="importante">dolor óseo progresivo</span>, con aumento del volumen óseo de manera local, y puede cursar con fiebre, simulando una infección.</p>
+                    <p>El desarrollo del sarcoma de Ewing es consecuencia de la <strong>translocación cromosómica balanceada t(11;22)(q24;q12)</strong> en el 85-90% de los casos, provocando la <span class="importante">fusión EWSR1::FL1</span>. Esta proteína de fusión actúa como un factor de transcripción oncogénico, alterando la expresión génica al unirse a regiones microsatélite GGAA, activando genes promotores de la proliferación celular e inhibiendo la diferenciación celular. Aunque es menos frecuente, en el 5-10% de los casos, la aparición de la patología también se puede deber a la translocación cromosómica t(21;22)(q22;q12), que provoca la fusión del gen EWSR1 con otro miembro de la familia de genes ETS, el factor de transcripción ERG, dando lugar a la <strong>proteína de fusión EWSR1::ERG</strong>. Finalmente, en menos del 5% de los casos, el gen EWSR1 se fusiona con el factor de transcripción ETV1, también perteneciente a la familia de genes ETS, como en ambos casos anteriores, dando como resultado la <strong>proteína de fusión EWSR1::ETV1</strong>.</p>
+                    <p>A nivel microscópico, el sarcoma de Ewing se caracteriza por estar formado por <strong>células pequeñas, redondas y monomorfas, con núcleos hipercromáticos</strong> y un escaso citoplasma rico en glucógeno (PAS positivo), así como zonas de necrosis tumoral y mitosis variables. La inmunohistoquímica será muy útil en cuanto a la especificidad diagnóstica, y por tanto, para la diferenciación del sarcoma de Ewing con otros tumores del grupo de “células pequeñas, redondas y azules”, ya que presenta <span class="importante">CD99 intensamente positivo</span> con un patrón membranoso difuso, y <span class="importante">NKX2.2 positivo nuclear</span> en más del 90% de los casos. Además, para confirmar molecularmente el diagnóstico, también serán útiles técnicas como la <strong>RT-PCR</strong> o <strong>NGS</strong>, que identifican la translocación característica del sarcoma de Ewing (fusión del gen EWSR1 con un gen de la familia ETS).</p>
+                    <div class="rxewing">
+                        <img src="img/rxsarcewing.png" alt="">
+                        <p class="pie-foto">Varón de 15 años que acude a consulta por dolor en la pierna. Aparece la diáfisis del fémur con erosiones del hueso cortical, espículas perpendiculares “en rayos de sol” y una apariencia laminada en periostio “en capas de cebolla” (Iqbal, 2024)</a>.</p>
+                    </div>
+                    <p>En cuanto a las pruebas de imagen que podemos solicitar para su diagnóstico, encontramos la radiografía convencional, en la que será visible una <strong>lesión lítica permeable</strong> en la diáfisis del hueso con <strong>bordes mal definidos, una reacción perióstica laminada “en capas de cebolla”</strong>, y en ocasiones, también serán observables triángulos de Codman (elevación del periostio con depósito óseo angular de nueva formación por debajo del mismo, dando lugar a una imagen triangular) y reacciones periósticas con forma espiculada (“en rayos de sol”). Por otra parte, en pruebas de imagen complementarias como la resonancia magnética, podremos comprobar si hay metástasis en partes blandas.</p>
+                    <p>El tratamiento se basa en un manejo multimodal, en el que se combina quimioterapia, cirugía y radioterapia. La <span class="importante">quimioterapia es el pilar fundamental del tratamiento</span>, en el que se emplea una quimioterapia combinada formada por vincristina, doxorrubicina, ciclofosfamida, ifosfamida y etopósido (VDC/IE). La cirugía será una mejor opción si el sarcoma de Ewing se encuentra de manera local, permitiendo una resección completa. En cambio, la radioterapia será una buena opción cuando la diseminación del tumor no permita resección, o como forma de complementar alguno de los anteriores tratamientos. La supervivencia del sarcoma de Ewing localizado es del 70-75%, sin embargo, en presencia de metástasis o recidiva, la enfermedad tiene un mal pronóstico, cayendo a un 15-30% la supervivencia en 5 años. Actualmente, se están estudiando experimentalmente <strong>terapias dirigidas contra EWSR1-FLI1</strong>, inhibidores de tirosina-quinasas como el regorafenib o el cabozantinib contra el sarcoma de Ewing, e inmunoterapia basada en células CAR-T anti-GD2.</p>
+                    <details>
+                        <summary>📚 Bibliografía y Fuentes</summary>
+                        <ul>
+                            <li>Dehner, C. A., Lazar, A. J., & Chrisinger, J. S. A. (2024). Updates on WHO classification for small round cell tumors: Ewing sarcoma vs. everything else. <i>Human Pathology, 147</i>, 101–113.<a href="https://10.1016/j.humpath.2024.01.007" target="_blank"></a></li>
+                            <li>Iqbal, S. (2024). Ewing sarcoma | Radiology Case | Radiopaedia.org. Retrieved Jan 7, 2026, from https://radiopaedia.org/cases/ewing-sarcoma-30<a href="https://radiopaedia.org/cases/ewing-sarcoma-30" target="_blank"></a></li>
+                            <li>Gargallo, P., Yáñez, Y., Juan, A., Segura, V., Balaguer, J., Torres, B., Oltra, S., Castel, V., & Cañete, A. (2020). Review: Ewing Sarcoma Predisposition. <i>Pathology & Oncology Research, 26</i>(4), 2057–2066.<a href="https://10.1007/s12253-019-00765-3" target="_blank"></a></li>
+                            <li>Strauss, S. J., Berlanga, P., & McCabe, M. G. (2024). Emerging therapies in Ewing sarcoma. <i>Current Opinion in Oncology, 36</i>(4), 297–304.<a href="https://10.1097/CCO.0000000000001048" target="_blank"></a></li>
+                            <li>Tsibulnikov, S., Fayzullina, D., Karlina, I., Schroeder, B. A., Karpova, O., Timashev, P., & Ulasov, I. (2023). Ewing sarcoma treatment: a gene therapy approach. <i>Cancer Gene Therapy, 30</i>(8), 1066–1071.<a href="https://10.1038/s41417-023-00615-0" target="_blank"></a></li>
+                        </ul>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <section id="autoev">
+            <div class="cuestionario-container">
+                <h2 class="cuestionario-titulo">¡Autoevalúate!</h2>
+                <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Dolor nocturno que se alivia con Aspirina o AINEs.</span>
+                <p class="justificacion"><strong>Explicación:</strong> El nido tumoral produce altos niveles de prostaglandinas. Los AINEs bloquean la síntesis de estas, proporcionando un alivio diagnóstico característico.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Zona radiotransparente pequeña con esclerosis reactiva periférica.</span>
+                <p class="justificacion"><strong>Explicación:</strong> El nido es la lesión lítica (oscura) central; la densidad ósea blanca que lo rodea es la respuesta del hueso del huésped.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: El tamaño de la lesión (mayor de 2 cm en el osteoblastoma).</span>
+                <p class="justificacion"><strong>Explicación:</strong> Histológicamente son casi idénticos, por lo que el tamaño es el parámetro clínico-radiológico que los distingue.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Metáfisis de huesos largos (especialmente rodilla).</span>
+                <p class="justificacion"><strong>Explicación:</strong> Se sitúa en zonas de alta rotación celular y crecimiento óseo, como el fémur distal y la tibia proximal.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Hueso reactivo donde el periostio ha sido levantado por el tumor.</span>
+                <p class="justificacion"><strong>Explicación:</strong> Es un signo de agresividad; el tumor crece tan rápido que el periostio no tiene tiempo de formar hueso nuevo completo.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Formación de matriz osteoide por células malignas.</span>
+                <p class="justificacion"><strong>Explicación:</strong> No basta con ver células atípicas; estas deben estar fabricando hueso neoplásico directamente.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Calcificaciones en "anillos y arcos".</span>
+                <p class="justificacion"><strong>Explicación:</strong> Representan la osificación periférica de los lóbulos de cartílago que forman el tumor.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: t(11;22)(q24;q12)</span>
+                <p class="justificacion"><strong>Explicación:</strong> Esta translocación genera el gen de fusión EWS-FLI1, diagnóstico en más del 85% de los casos.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Niños y adolescentes (5 a 20 años).</span>
+                <p class="justificacion"><strong>Explicación:</strong> Es el segundo tumor óseo maligno más frecuente en la infancia, solo por detrás del osteosarcoma.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"> <strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Tejido rojo granular y friable.</span>
+                <p class="justificacion"><strong>Explicación:</strong> El color rojizo se debe a su altísima vascularización interna.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"> <strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Reacción perióstica laminar.</span>
+                <p class="justificacion"><strong>Explicación:</strong> Varias capas de hueso nuevo formadas por el periostio al ser irritado de forma cíclica por el tumor.</p>
+            </div>
+        </details>
+    </div>
+
+    <div class="pregunta-card">
+        <p class="enunciado"><strong>pregunta</strong></p>
+        <details>
+            <summary>Respuesta correcta</summary>
+            <div class="respuesta-box">
+                <span class="es-correcta">Respuesta: Tomografía Computarizada (TC).</span>
+                <p class="justificacion"><strong>Explicación:</strong> Es superior a la RM y a la radiografía para localizar con precisión milimétrica el nido calcificado o lítico.</p>
+            </div>
+        </details>
+    </div>
+
+</div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>© 2025 Anatomía Patológica General y Especial </p>
+    </footer>
+<script>
+        function resaltarLocal(boton) {
+            const contenedor = boton.closest('.osteoide-cabecera');
+
+            if (boton.innerText === "Lo + importante") {
+                boton.innerText = "Ocultar";
+            } else {
+                boton.innerText = "Lo + importante";
+            }
+
+            const elementos = contenedor.querySelectorAll('.importante');
+
+            elementos.forEach(el => {
+                el.classList.toggle('importante-activo');
+            });
+        }
+    </script>
+<style>
+    .importante-activo {
+        background-color: yellow !important;
+        color: black !important;
+        font-weight: bold !important;
+        display: inline;
+    }
+</style>
+</style>
+</body>
+</html>
